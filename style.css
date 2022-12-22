@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #2f363e;
+    padding-top: 50vh;
+}
+
+#time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: #ffff;
+    border: 1px solid white;
+    width: 500px;
+    margin: auto;   
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#time div{
+    text-align: center;
+}
+
+#time .ap{
+    font: 1em;
+}
+
+footer{
+    text-align: center;
+    padding-top: 200px;
+    font-weight: 700;
+    color: aliceblue;
+}
